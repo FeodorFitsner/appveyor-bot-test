@@ -1,5 +1,5 @@
 #shallow_clone: true
-platform: x86
+platform: Any CPU
 
 # restore packages
 before_build:
