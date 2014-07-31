@@ -1,3 +1,5 @@
+os: test-win2012-r2
+
 #shallow_clone: true
 platform: Any CPU
 
