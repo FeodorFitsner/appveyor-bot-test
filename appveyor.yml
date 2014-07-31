@@ -6,3 +6,6 @@ platform: Any CPU
 # restore packages
 before_build:
   - nuget restore
+
+artifacts:
+  - path: SimpleApp\bin\Debug
