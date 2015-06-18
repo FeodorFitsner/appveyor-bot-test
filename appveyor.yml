@@ -9,3 +9,6 @@ before_build:
 
 artifacts:
   - path: SimpleApp\bin\Debug
+
+on_finish:
+  - ps: Get-EventLog AppVeyor
