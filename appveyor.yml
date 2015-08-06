@@ -5,7 +5,7 @@ platform: Any CPU
 
 # restore packages
 before_build:
-  - nuget restore
+  - nuget restore -verbosity detailed
 
 artifacts:
   - path: SimpleApp\bin\Debug
