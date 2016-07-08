@@ -1,4 +1,4 @@
-#os: test 
+image: Visual Studio 2015 
 
 init:
 - appveyor version
