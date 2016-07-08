@@ -1,5 +1,8 @@
 #os: test 
 
+init:
+- appveyor version
+
 #shallow_clone: true
 platform: Any CPU
 
